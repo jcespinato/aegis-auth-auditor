@@ -17,7 +17,7 @@ class AuditEngine:
     def __init__(self, timeout: float = 10.0) -> None:
         self.timeout = timeout
         self.headers = {
-            "User-Agent": "AegisAuthAuditor/2.0",
+            "User-Agent": "AegisAuthAuditor/3.0",
             "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
         }
 
